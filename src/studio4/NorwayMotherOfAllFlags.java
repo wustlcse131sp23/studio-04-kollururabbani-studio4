@@ -1,5 +1,7 @@
 package studio4;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
@@ -30,22 +32,38 @@ public class NorwayMotherOfAllFlags {
 
 	public static void france() {
 		
-		// TODO
+		StdDraw.setPenColor(Color.BLUE);
+		StdDraw.filledRectangle(22.0/3, 8, 22.0/3, 8.0);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(44.0/3, 8, 22.0/3, 8.0);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(66.0/3, 8, 22.0/3, 8.0);
 	}
 
 	public static void indonesia() {
 		
-		// TODO
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11.0, 4.0, 11.0, 4.0);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11.0, 12.0, 11.0, 4.0);
 	}
 
 	public static void netherlands() {
 		
-		// TODO
+		StdDraw.setPenColor(Color.BLUE);
+		StdDraw.filledRectangle(11.0, 16.0/3, 11.0, 16.0/3);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11.0, 32.0/3, 11.0, 16.0/3);
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11.0, 48.0/3, 11.0, 16.0/3);
 	}
 
 	public static void poland() {
 		
-		// TODO
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11.0, 4.0, 11.0, 4.0);
+		StdDraw.setPenColor(Color.WHITE);
+		StdDraw.filledRectangle(11.0, 12.0, 11.0, 4.0);
 	}
 
 	public static void thailand() {
